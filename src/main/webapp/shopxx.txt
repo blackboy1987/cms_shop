@@ -1,0 +1,7 @@
+爱购
+
+说明：
+待修改表数据：将url修改为自己ip或者域名地址
+StoreAdImage
+update Navigation set url=REPLACE(url,'http://124.156.118.170:8080','http://47.115.168.242:8080')
+update Ad set url=REPLACE(url,'http://124.156.118.170:8080/','http://47.115.168.242:8080/')
